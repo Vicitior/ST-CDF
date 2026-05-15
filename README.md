@@ -1,10 +1,10 @@
-# ST-CDF: A Conditional Diffusion Framework for High-Fidelity Spatio-Temporal Sensor Data Imputation
+# ST-CDF: A Generative AI Framework for Physics-Consistent Imputation and Simulation in Precision Agriculture
 
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![PyTorch 2.4](https://img.shields.io/badge/PyTorch-2.4.0-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-This repository contains the **core model implementation** of **ST-CDF**, a Spatio-Temporal Conditional Diffusion Framework for high-fidelity sensor data imputation in agricultural applications.
+This repository contains the **core model implementation** of **ST-CDF**, a Generative AI framework for physics-consistent imputation and simulation in precision agriculture.
 
 > **Note**: This release includes the core model architecture and training pipelines. Data preprocessing utilities and baseline comparisons will be released upon paper acceptance.
 
@@ -95,7 +95,7 @@ MIT License. See [LICENSE](LICENSE).
 
 ```bibtex
 @article{stcdf2025,
-  title={ST-CDF: A Conditional Diffusion Framework for High-Fidelity Spatio-Temporal Sensor Data Imputation},
+  title={ST-CDF: A Generative AI Framework for Physics-Consistent Imputation and Simulation in Precision Agriculture},
   journal={Applied Sciences},
   year={2025}
 }
