@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Logs
+runs/
+wandb/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files - keep raw data local, not on GitHub)
+data/raw/*.xlsx
+data/raw/*.xlsm
+data/raw/*.csv
+
+# Environment
+.env
+*.pkl
+
+# Claude Code
+.claude/
