@@ -17,8 +17,10 @@ env/
 *.swp
 *.swo
 
-# Model checkpoints
+# Model checkpoints (ignore training-generated, keep pre-trained)
 *.pth
+!teacher_model.pth
+!student_model.pth
 *.pt
 *.ckpt
 *.onnx
